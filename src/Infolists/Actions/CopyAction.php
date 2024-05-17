@@ -1,9 +1,9 @@
 <?php
 
-namespace Webbingbrasil\FilamentCopyActions\Forms\Infolists\Actions;
+namespace Webbingbrasil\FilamentCopyActions\Infolists\Actions;
 
+use Filament\Infolists\Components\Actions\Action as BaseAction;
 use Webbingbrasil\FilamentCopyActions\Concerns\HasCopyable;
-use Filament\Actions\Action as BaseAction;
 
 class CopyAction extends BaseAction
 {
